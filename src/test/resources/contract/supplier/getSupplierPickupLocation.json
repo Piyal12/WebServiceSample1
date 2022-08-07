@@ -1,0 +1,215 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "object",
+          "properties": {
+            "address_line_1": {
+              "type": "string"
+            },
+            "address_line_2": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "district": {
+              "type": "string"
+            },
+            "landmark": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "pincode": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "address_line_1",
+            "address_line_2",
+            "city",
+            "country",
+            "district",
+            "landmark",
+            "latitude",
+            "longitude",
+            "name",
+            "pincode",
+            "state"
+          ]
+        },
+        "basic_details": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "landline": {
+              "type": "null"
+            },
+            "name": {
+              "type": "string"
+            },
+            "phone_number": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email",
+            "landline",
+            "name",
+            "phone_number"
+          ]
+        },
+        "info": {
+          "type": "object",
+          "properties": {
+            "timings": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "always_open": {
+                      "type": "boolean"
+                    },
+                    "closed": {
+                      "type": "boolean"
+                    },
+                    "day_of_week": {
+                      "type": "string"
+                    },
+                    "timings": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "end_time": {
+                              "type": "integer"
+                            },
+                            "open_time": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "end_time",
+                            "open_time"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "end_time": {
+                              "type": "integer"
+                            },
+                            "open_time": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "end_time",
+                            "open_time"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "end_time": {
+                              "type": "integer"
+                            },
+                            "open_time": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "end_time",
+                            "open_time"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "end_time": {
+                              "type": "integer"
+                            },
+                            "open_time": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "end_time",
+                            "open_time"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "always_open",
+                    "closed",
+                    "day_of_week",
+                    "timings"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "timings"
+          ]
+        },
+        "kyc_status": {
+          "type": "string"
+        },
+        "owned_by_infra_market": {
+          "type": "boolean"
+        },
+        "supplier_alias_id": {
+          "type": "string"
+        },
+        "supplier_office_alias_id": {
+          "type": "string"
+        },
+        "supplier_pickup_location_alias_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "address",
+        "basic_details",
+        "info",
+        "kyc_status",
+        "owned_by_infra_market",
+        "supplier_alias_id",
+        "supplier_office_alias_id",
+        "supplier_pickup_location_alias_id"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

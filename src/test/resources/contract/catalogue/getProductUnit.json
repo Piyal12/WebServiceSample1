@@ -1,0 +1,45 @@
+{
+    "data": [
+        {
+            "product_alias_id": "PROD1",
+            "product_brands": [
+                {
+                    "measurement_units": [
+                        {
+                            "measurement_unit_alias_id": "UOM1",
+                            "measurement_unit_name": "㎥"
+                        },
+                        {
+                            "measurement_unit_alias_id": "UOM4",
+                            "measurement_unit_name": "Cubic Meter"
+                        }
+                    ],
+                    "product_brand_alias_id": "PRODBR30",
+                    "product_brand_name": "Infra.Market"
+                },
+                {
+                    "measurement_units": [
+                        {
+                            "measurement_unit_alias_id": "UOM1",
+                            "measurement_unit_name": "㎥"
+                        },
+                        {
+                            "measurement_unit_alias_id": "UOM4",
+                            "measurement_unit_name": "Cubic Meter"
+                        }
+                    ],
+                    "product_brand_alias_id": null,
+                    "product_brand_name": "No Brand"
+                }
+            ]
+        }
+    ],
+    "page_info": {
+        "cursor": 0,
+        "has_next": false,
+        "page_number": 1,
+        "page_size": 1,
+        "total_pages": 1
+    },
+    "success": true
+}

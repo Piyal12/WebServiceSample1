@@ -1,0 +1,956 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closure_date": {
+              "type": "string"
+            },
+            "cov_probability": {
+              "type": "integer"
+            },
+            "created_id": {
+              "type": "integer"
+            },
+            "customer": {
+              "type": "object",
+              "properties": {
+                "customer_alias_id": {
+                  "type": "string"
+                },
+                "customer_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_alias_id",
+                "customer_name"
+              ]
+            },
+            "deal_alias_id": {
+              "type": "string"
+            },
+            "deal_amount": {
+              "type": "integer"
+            },
+            "deal_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "modified_id": {
+              "type": "integer"
+            },
+            "owner": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "product_group": {
+              "type": "object",
+              "properties": {
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_group_alias_id",
+                "product_group_name"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "closure_date",
+            "cov_probability",
+            "created_id",
+            "customer",
+            "deal_alias_id",
+            "deal_amount",
+            "deal_name",
+            "is_active",
+            "modified_id",
+            "owner",
+            "product_group",
+            "state"
+          ]
+        }
+      ]
+    },
+    "page_info": {
+      "type": "object",
+      "properties": {
+        "cursor": {
+          "type": "integer"
+        },
+        "has_next": {
+          "type": "boolean"
+        },
+        "page_number": {
+          "type": "integer"
+        },
+        "page_size": {
+          "type": "integer"
+        },
+        "total_pages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cursor",
+        "has_next",
+        "page_number",
+        "page_size",
+        "total_pages"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "page_info",
+    "success"
+  ]
+}

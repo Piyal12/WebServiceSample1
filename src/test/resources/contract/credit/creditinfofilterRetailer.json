@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "available_credit_limit": {
+          "type": "integer"
+        },
+        "credit_days": {
+          "type": "string"
+        },
+        "credit_info_alias_id": {
+          "type": "string"
+        },
+        "last_credit_app": {
+          "type": "object",
+          "properties": {
+            "approved_amount": {
+              "type": "integer"
+            },
+            "approved_by": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "approved_on": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "approved_amount",
+            "approved_by",
+            "approved_on"
+          ]
+        },
+        "total_credit_limit": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "available_credit_limit",
+        "credit_days",
+        "credit_info_alias_id",
+        "last_credit_app",
+        "total_credit_limit"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

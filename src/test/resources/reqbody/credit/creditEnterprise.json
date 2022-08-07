@@ -1,0 +1,36 @@
+{
+  "name": "$name",
+  "customer_alias_id": "$customerAliasId",
+  "customer_name" : "$customerName",
+  "customer_rep_alias_id": "$customerRepAliasId",
+  "credit_group_name": "$creditGroupName",
+  "proposed_credit": $proposedCredit,
+  "reason_for_proposal": "$reasonforProposal",
+  "credit_days": "$creditDays",
+  "security_type": "$securityType",
+  "additional_info": {
+    "credit_info": $creditInfo,
+    "remarks": "$remarks",
+    "is_real_estate": "$isRealEstate"
+  },
+  "kyc_data": [{
+    "kyc_id": $kycId,
+    "profile_type": "$profileType"
+  }],
+  "attribute_data": [{
+    "attribute_name":"$attributeName",
+    "reference_id":$referenceId,
+    "reference_name":"$referenceName"
+  },{
+    "attribute_name":"$attributeName1",
+    "reference_id":$referenceId1,
+    "reference_name":"$referenceName"
+  }],
+  "estimation_data": [{
+    "attribute_name":"$attributeName2",
+    "reference_id":$referenceId2,
+    "reference_name":"$referenceName2",
+    "unit_of_measurement":"$unitOfMeasurement",
+    "expected_monthly_consumption": $expectedMonthlyConsumption
+  }]
+}

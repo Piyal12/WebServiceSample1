@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "address": {
+              "type": "object",
+              "properties": {
+                "address_alias_id": {
+                  "type": "string"
+                },
+                "address_line_1": {
+                  "type": "string"
+                },
+                "address_line_2": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "district": {
+                  "type": "string"
+                },
+                "landmark": {
+                  "type": "string"
+                },
+                "latitude": {
+                  "type": "number"
+                },
+                "longitude": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "pincode": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string"
+                },
+                "street": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "address_alias_id",
+                "address_line_1",
+                "address_line_2",
+                "city",
+                "country",
+                "district",
+                "landmark",
+                "latitude",
+                "longitude",
+                "name",
+                "pincode",
+                "state",
+                "street"
+              ]
+            },
+            "created_at_ts": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_branch_alias_id": {
+              "type": "string"
+            },
+            "customer_site_alias_id": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "info": {
+              "type": "object",
+              "properties": {
+                "location_type": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "location_type"
+              ]
+            },
+            "kyc_status": {
+              "type": "string"
+            },
+            "landline": {
+              "type": "string"
+            },
+            "mobile_number": {
+              "type": "string"
+            },
+            "modified_at_ts": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "pic_url_list": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "pincode_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "address",
+            "created_at_ts",
+            "customer_alias_id",
+            "customer_branch_alias_id",
+            "customer_site_alias_id",
+            "email",
+            "info",
+            "kyc_status",
+            "landline",
+            "mobile_number",
+            "modified_at_ts",
+            "name",
+            "pic_url_list",
+            "pincode_id"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

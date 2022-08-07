@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="com.im.service.util.listener.TestListener"></listener>
+        <listener class-name="com.im.service.util.listener.HtmlReportListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="Test">
+        <classes>
+            <class name="primary.catalogue.AddProductCategory"></class>
+<class name="primary.catalogue.AddProductGroups"></class>
+<class name="primary.catalogue.GetProductList"></class>
+<class name="primary.catalogue.GetProductUnit"></class>
+<class name="secondary.catalogue.AddProductCategory"></class>
+<class name="secondary.catalogue.AddProductGroups"></class>
+<class name="secondary.catalogue.GetProductList"></class>
+<class name="secondary.catalogue.GetProductUnit"></class>
+
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+

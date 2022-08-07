@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "contact_via_whatsapp": {
+              "type": "boolean"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_rep_alias_id": {
+              "type": "string"
+            },
+            "dealer_app_access_admin": {
+              "type": "boolean"
+            },
+            "department": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "job_title": {
+              "type": "string"
+            },
+            "kyc_data": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "kyc_id": {
+                      "type": "integer"
+                    },
+                    "kyc_type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "kyc_id",
+                    "kyc_type"
+                  ]
+                }
+              ]
+            },
+            "kyc_status": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "phone_number": {
+              "type": "string"
+            },
+            "relationship_type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "contact_via_whatsapp",
+            "customer_alias_id",
+            "customer_rep_alias_id",
+            "dealer_app_access_admin",
+            "department",
+            "email",
+            "first_name",
+            "is_active",
+            "job_title",
+            "kyc_data",
+            "kyc_status",
+            "last_name",
+            "phone_number",
+            "relationship_type"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

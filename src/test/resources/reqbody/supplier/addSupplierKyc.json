@@ -1,0 +1,12 @@
+{
+  "profile_alias_id": "$supplierID",
+  "profile_type": "$profileType",
+    "kycs_data": [
+      {
+        "kyc_id": $kycIdGST,
+        "kyc_type": "$kycTypeGST",
+        "kyc_status": "$kycStatusGST",
+        "kyc_identification_number": "$KycNumberGST"
+      }
+  ]
+}

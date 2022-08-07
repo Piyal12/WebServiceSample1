@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "identification_no": "$identification_no",
+      "kyc_type": "$kyc_type",
+      "profile_type": "$profile_type",
+      "file_name": "",
+      "file_data_base64": "",
+      "file_extension": "",
+      "expired_at_ts": $expired_at_ts,
+      "additional_info": {}
+    },
+    {
+      "identification_no": "$identification_no_pan",
+      "kyc_type": "$pan_kyc",
+      "profile_type": "$customer_type",
+      "file_name": "",
+      "file_data_base64": "",
+      "file_extension": "",
+      "expired_at_ts": $expired_at_ts,
+      "additional_info": {}
+    }
+  ]
+}

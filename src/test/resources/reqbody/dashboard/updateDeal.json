@@ -1,0 +1,6 @@
+{
+    "deal_name" : "$dealName",
+    "closure_date": "$closureDate",
+    "from_state" : "$fromState",
+    "to_state" : "$toState"
+}

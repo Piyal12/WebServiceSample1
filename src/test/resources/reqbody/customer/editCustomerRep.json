@@ -1,0 +1,13 @@
+{
+  "first_name": "$firstName",
+  "last_name": "$lastName",
+  "department": "$department",
+  "job_title": "$jobTitle",
+  "phone_number": "$phoneNumber",
+  "is_active": $isActive,
+  "contact_via_whatsapp": $contactViaWhatsapp,
+  "customer_alias_id": "$customerAliasId",
+  "customer_branch_alias_ids": ["$customerBranchAliasIds"],
+  "customer_site_alias_ids": ["$customerSiteAliasIds"],
+  "relationship_type": "$relationshipType"
+}

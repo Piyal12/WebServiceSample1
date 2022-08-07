@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression suite">
+    <groups>
+        <run>
+            <include name="sanity"></include>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="com.im.service.util.listener.TestListener"></listener>
+        <listener class-name="com.im.service.util.listener.HtmlReportListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="Test">
+        <classes>
+            <class name="primary.supplier.AddSupplierKycTest"/>
+            <class name="primary.supplier.CreateSupplierOfficeTest"/>
+            <class name="primary.supplier.CreateSupplierPickupLocationTest"/>
+            <class name="primary.supplier.CreateSupplierRepTest"/>
+            <class name="primary.supplier.CreateSupplierTest"/>
+            <class name="primary.supplier.EditSupplierOfficeTest"/>
+            <class name="primary.supplier.EditSupplierPickupLocationTest"/>
+            <class name="primary.supplier.EditSupplierRepTest"/>
+            <class name="primary.supplier.GetListSupplierTest"/>
+            <class name="primary.supplier.GetPickupLocationProductGroupsTest"/>
+            <class name="primary.supplier.GetPickupLocationProductServicesTest"/>
+            <class name="primary.supplier.GetSupplierDataFromKyc"/>
+            <class name="primary.supplier.GetSupplierDetailsTest"/>
+            <class name="primary.supplier.GetSupplierKycTest"/>
+            <class name="primary.supplier.GetSupplierOfficeTest"/>
+            <class name="primary.supplier.GetSupplierPickupLocationProductsTest"/>
+            <class name="primary.supplier.GetSupplierPickupLocationTest"/>
+            <class name="primary.supplier.GetSupplierRepListTest"/>
+            <class name="primary.supplier.GetSupplierRepTest"/>
+            <class name="primary.supplier.ListSupplierOfficeTest"/>
+            <class name="primary.supplier.ListSupplierPickupLocationTest"/>
+            <class name="primary.supplier.PutEditSupplierTest"/>
+            <class name="primary.supplier.PutPickupLocationProductGroupsTest"/>
+            <class name="primary.supplier.PutPickupLocationProductServicesTest"/>
+            <class name="primary.supplier.PutSupplierPickupLocationProductsTest"/>
+            <class name="secondary.supplier.AddSupplierKycTest"/>
+            <class name="secondary.supplier.CreateSupplierOfficeTest"/>
+            <class name="secondary.supplier.CreateSupplierPickupLocationTest"/>
+            <class name="secondary.supplier.CreateSupplierRepTest"/>
+            <class name="secondary.supplier.CreateSupplierTest"/>
+            <class name="secondary.supplier.EditSupplierOfficeTest"/>
+            <class name="secondary.supplier.EditSupplierPickupLocationTest"/>
+            <class name="secondary.supplier.EditSupplierRepTest"/>
+            <class name="secondary.supplier.GetListSupplierTest"/>
+            <class name="secondary.supplier.GetPickupLocationProductGroupsTest"/>
+            <class name="secondary.supplier.GetPickupLocationProductServicesTest"/>
+            <class name="secondary.supplier.GetSupplierDataFromKyc"/>
+            <class name="secondary.supplier.GetSupplierDetailsTest"/>
+            <class name="secondary.supplier.GetSupplierKycTest"/>
+            <class name="secondary.supplier.GetSupplierOfficeTest"/>
+            <class name="secondary.supplier.GetSupplierPickupLocationProductsTest"/>
+            <class name="secondary.supplier.GetSupplierPickupLocationTest"/>
+            <class name="secondary.supplier.GetSupplierRepListTest"/>
+            <class name="secondary.supplier.GetSupplierRepTest"/>
+            <class name="secondary.supplier.ListSupplierOfficeTest"/>
+            <class name="secondary.supplier.ListSupplierPickupLocationTest"/>
+            <class name="secondary.supplier.PutEditSupplierTest"/>
+            <class name="secondary.supplier.PutPickupLocationProductGroupsTest"/>
+            <class name="secondary.supplier.PutPickupLocationProductServicesTest"/>
+            <class name="secondary.supplier.PutSupplierPickupLocationProductsTest"/>
+        </classes>
+    </test>
+</suite>

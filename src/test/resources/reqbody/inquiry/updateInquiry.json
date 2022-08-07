@@ -1,0 +1,5 @@
+{
+  "kyc_id": $kyc_id,
+  "status": "$status",
+  "additional_info": {}
+}

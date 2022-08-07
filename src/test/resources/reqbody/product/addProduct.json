@@ -1,0 +1,16 @@
+{
+  "name" : "$name",
+  "scientific_name" : "$scientific_name",
+  "image_urls" : [],
+  "icon_url" : "",
+  "hsn_code" : "$hsn_code",
+  "short_desc" : "$short_desc",
+  "long_desc" : "",
+  "info" : {
+  },
+  "is_catalogued" : $is_catalogued,
+  "parent_product_id" : "",
+  "is_custom" : $is_custom,
+  "attributes" : [],
+  "product_group_alias_id": "$product_group_alias_id"
+}

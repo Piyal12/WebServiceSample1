@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "additional_info": {
+      "type": "null"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "address_alias_id": {
+          "type": "string"
+        },
+        "address_line_1": {
+          "type": "string"
+        },
+        "address_line_2": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "district": {
+          "type": "string"
+        },
+        "landmark": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "integer"
+        },
+        "longitude": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "pincode": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "address_alias_id",
+        "address_line_1",
+        "address_line_2",
+        "city",
+        "country",
+        "district",
+        "landmark",
+        "latitude",
+        "longitude",
+        "name",
+        "pincode",
+        "state",
+        "street"
+      ]
+    },
+    "created_at_ts": {
+      "type": "string"
+    },
+    "customer_alias_id": {
+      "type": "string"
+    },
+    "customer_branch_alias_id": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "gst_number": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "kyc_status": {
+      "type": "string"
+    },
+    "landline": {
+      "type": "string"
+    },
+    "modified_at_ts": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "pincode": {
+      "type": "string"
+    }
+  }
+}

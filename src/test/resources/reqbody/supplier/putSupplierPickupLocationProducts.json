@@ -1,0 +1,15 @@
+{
+	"products": [
+		{
+			"product_brand_alias_id": "$productId",
+			"measurement_unit_alias_id": "$measurement",
+			"product_alias_id": "$aliasId",
+			"info": {
+				"name": {
+					"age": $age,
+					"height": $height
+				}
+			}
+		}
+	]
+}

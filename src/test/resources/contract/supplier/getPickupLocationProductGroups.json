@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "allotted_capacity": {
+              "type": "integer","minimum":1,"type": "number"
+            },
+            "info": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "value": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "value"
+                  ]
+                }
+              },
+              "required": [
+                "data"
+              ]
+            },
+            "max_capacity": {
+              "type": "integer"
+            },
+            "measurement_unit": {
+              "type": "null"
+            },
+            "measurement_unit_alias_id": {
+              "type": "string"
+            },
+            "product_brand": {
+              "type": "string"
+            },
+            "product_brand_alias_id": {
+              "type": "string"
+            },
+            "product_group": {
+              "type": "string"
+            },
+            "product_group_alias_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "allotted_capacity",
+            "info",
+            "max_capacity",
+            "measurement_unit",
+            "measurement_unit_alias_id",
+            "product_brand",
+            "product_brand_alias_id",
+            "product_group",
+            "product_group_alias_id"
+          ]
+        }
+      ]
+    },
+    "page_info": {
+      "type": "object",
+      "properties": {
+        "cursor": {
+          "type": "integer"
+        },
+        "has_next": {
+          "type": "boolean"
+        },
+        "page_number": {
+          "type": "integer"
+        },
+        "page_size": {
+          "type": "integer"
+        },
+        "total_pages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cursor",
+        "has_next",
+        "page_number",
+        "page_size",
+        "total_pages"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "page_info",
+    "success"
+  ]
+}

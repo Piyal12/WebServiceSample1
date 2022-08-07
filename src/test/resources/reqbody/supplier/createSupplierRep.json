@@ -1,0 +1,21 @@
+{
+  "email": "$email",
+  "first_name": "$firstName",
+  "last_name": "$lastName",
+  "department": "$department",
+  "job_title": "$jobTitle",
+  "phone_number": "$phoneNumber",
+  "is_active": $isActive,
+  "contact_via_whatsapp": $contactViaWhatsapp,
+  "supplier_alias_id": "$supplierAliasId",
+  "supplier_office_alias_ids": ["$supplierOfficeAliasIds"],
+  "supplier_pickup_location_alias_ids": [],
+  "kycs_data": [
+    {
+      "kyc_id": $kycId,
+      "kyc_type": "$kycType",
+      "kyc_status": "$kycStatus",
+      "kyc_identification_number": "$kycIdentificationNumber"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "supplier_alias_id": "$supplier_alias_id",
+  "supplier_office_alias_id": "$supplierOfficeAliasId",
+  "basic_details" : {
+    "name": "$name",
+    "email": "$email",
+    "landline": $landline,
+    "phone_number": "$phone_number"
+  },
+  "type": "$type",
+  "address": {
+    "name": "$name1",
+    "address_line_1": "$address_line_1",
+    "address_line_2": "$address_line_2",
+    "latitude": $latitude,
+    "longitude": $longitude,
+    "city": "$city",
+    "district": "$district",
+    "state": "$state",
+    "country": "$country",
+    "pincode": "$pincode"
+  },
+  "product_groups": [
+    {
+      "product_brand_alias_id": "$productBrandAliasId",
+      "measurement_unit_alias_id": "$measurementUnitAliasId",
+      "product_group_alias_id": "$productGroupAliasId",
+      "max_capacity": $max_capacity,
+      "allotted_capacity": $allotted_capacity,
+      "info": {
+        "data": {
+          "value": "$value"
+        }
+      }
+    },
+    {
+      "product_brand_alias_id": "$product_brand_alias_id",
+      "measurement_unit_alias_id": "$measurement_unit_alias_id",
+      "product_group_alias_id": "$product_group_alias_id",
+      "max_capacity": $max_capacity1,
+      "allotted_capacity": $allotted_capacity1,
+      "info": {
+        "data": {
+          "value": "$value1"
+        }
+      }
+    }
+  ],
+  "info": {
+    "timings": [
+      {
+        "day_of_week": "$day_of_week",
+        "closed": $closed,
+        "timings": [
+          {
+            "openTime": $openTime,
+            "endTime": $endTime
+          },
+          {
+            "openTime": $openTime1,
+            "endTime": $endTime1
+          },
+          {
+            "openTime": $openTime2,
+            "endTime": $endTime2
+          },
+          {
+            "openTime": $openTime3,
+            "endTime": $endTime3
+          }
+        ]
+      }
+    ]
+  },
+  "kycs_data":[
+    {
+      "kyc_id":$kycID,
+      "kyc_identification_number":"$kyc_identification_number",
+      "kyc_status":"$kyc_status",
+      "kyc_type":"$kyc_type"
+    }
+  ]
+}

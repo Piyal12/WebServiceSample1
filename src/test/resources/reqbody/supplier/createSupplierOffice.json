@@ -1,0 +1,39 @@
+{
+    "basic_details": {
+      "name": "$name",
+      "phone_number": "$phoneNo",
+      "landline": "$landline",
+      "email": "$email"
+    },
+    "address":{
+      "name":"$addressName",
+      "address_line_1":"$addressLine1",
+      "address_line_2":"$addressLine2",
+      "landmark":"$landmark",
+      "city":"$city",
+      "district":"$district",
+      "state":"$state",
+      "pincode":"$pincode",
+      "country":"$country",
+      "latitude":$latitude,
+      "longitude":$longitude
+    },
+    "supplier_alias_id": "$supplierId",
+    "kycs_data": [
+      {
+        "kyc_id": $kycIdGST,
+        "kyc_type": "$kycTypeGST",
+        "kyc_status": "$kycStatusGST",
+        "kyc_identification_number": "$KycNumberGST"
+      }
+    ],
+    "bank_details": {
+      "ifsc": "$ifsc",
+      "bank_name": "$bankName",
+      "branch_name": "$branchName",
+      "branch_address": "$branchAddress",
+      "account_number": "$accNo",
+      "account_holder_name": "accountHolderName"
+    }
+  }
+  

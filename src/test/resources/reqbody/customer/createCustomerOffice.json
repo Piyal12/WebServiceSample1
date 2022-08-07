@@ -1,0 +1,29 @@
+{
+  "name": "$name",
+  "phone_number": "$phoneNumber",
+  "landline": "$landline",
+  "email": "$email",
+  "customer_alias_id": "$customerAliasId",
+  "relationship_type": "$relationshipType",
+  "address": {
+    "name": "$name",
+    "address_line_1": "$addressLine1",
+    "address_line_2": "$addressLine2",
+    "landmark": "$landmark",
+    "pincode": "$pincode",
+    "city": "$city",
+    "district": "$district",
+    "state": "$state",
+    "country": "$country",
+    "latitude": $latitude,
+    "longitude": $longitude
+  },
+  "kycs_data": [
+    {
+      "kyc_id": $kycId,
+        "kyc_type": "$kycType",
+      "kyc_identification_number": "$kycIdentificationNumber",
+      "kyc_status": "$kycStatus"
+    }
+  ]
+}

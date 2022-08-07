@@ -1,0 +1,52 @@
+{
+  "name": "$name",
+  "phone_number": "$phoneNumber",
+  "business_type": "$businessType",
+  "industry_type": "$industryType",
+  "email": "$email",
+  "landline": "$landline",
+  "source": "$source",
+  "company_type": "$companyType",
+  "customer_type": "$customerType",
+  "relationship_type": "$relationshipType",
+  "source_data": {
+    "info": "$info"
+  },
+  "product_categories": [2, 3],
+  "kycs_data": [
+    {
+      "kyc_id": $panId,
+      "kyc_type": "$kycTypePan",
+      "kyc_identification_number": "$kycIdentificationNumberPan",
+      "kyc_status": "$kycStatusPan"
+    }
+  ],
+  "branch_data": {
+    "name": "$bName",
+    "phone_number": "$bPhoneNumber",
+    "landline": "$bLandline",
+    "email": "$bEmail",
+    "customer_alias_id": "$customerAliasId",
+    "address": {
+      "name": "$addrName",
+      "address_line_1": "$addressLine1",
+      "address_line_2": "$addressLine2",
+      "landmark": "$landmark",
+      "pincode": "$pincode",
+      "city": "$city",
+      "district": "$district",
+      "state": "$state",
+      "country": "$country",
+      "latitude": $latitude,
+      "longitude": $longitude
+    },
+    "kycs_data": [
+      {
+        "kyc_id": $kycIdGst,
+        "kyc_type": "$kycType",
+        "kyc_identification_number": "$kycIdentificationNumber",
+        "kyc_status": "$kycStatus"
+      }
+    ]
+  }
+}

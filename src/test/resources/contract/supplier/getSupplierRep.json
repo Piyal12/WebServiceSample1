@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "contact_via_whatsapp": {
+          "type": "boolean"
+        },
+        "department": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+
+        },
+        "first_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 24
+        },
+        "is_active": {
+          "type": "boolean"
+        },
+        "job_title": {
+          "type": "string"
+        },
+        "kyc_status": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "phone_number": {
+          "type": "integer",
+           "type": "string",
+          "pattern": "^\\d{10}$"
+        },
+        "supplier_alias_id": {
+          "type": "string"
+        },
+        "supplier_rep_alias_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "contact_via_whatsapp",
+        "department",
+        "email",
+        "first_name",
+        "is_active",
+        "job_title",
+        "kyc_status",
+        "last_name",
+        "phone_number",
+        "supplier_alias_id",
+        "supplier_rep_alias_id"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

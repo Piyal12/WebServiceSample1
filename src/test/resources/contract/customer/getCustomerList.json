@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "additional_info": {
+              "type": "null"
+            },
+            "business_type": {
+              "type": "string"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "created_at_ts": {
+              "type": "string"
+            },
+            "credit_status": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_type": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "industry_type": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "kyc_status": {
+              "type": "string"
+            },
+            "modified_at_ts": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "owned_by": {
+              "type": "string"
+            },
+            "phone_number": {
+              "type": "string"
+            },
+            "product_categories": {
+              "type": "null"
+            },
+            "relationship_type": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "source_data": {
+              "type": "object",
+              "properties": {
+                "info": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "info"
+              ]
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "additional_info",
+            "business_type",
+            "company_type",
+            "created_at_ts",
+            "credit_status",
+            "customer_alias_id",
+            "customer_type",
+            "email",
+            "industry_type",
+            "is_active",
+            "kyc_status",
+            "modified_at_ts",
+            "name",
+            "owned_by",
+            "phone_number",
+            "product_categories",
+            "relationship_type",
+            "source",
+            "source_data",
+            "state"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

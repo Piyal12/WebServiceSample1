@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "branch_info": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "customer_branch_alias_id": {
+                  "type": "string"
+                },
+                "kyc_status": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_branch_alias_id",
+                "kyc_status",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "customer_branch_alias_id": {
+                  "type": "string"
+                },
+                "kyc_status": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_branch_alias_id",
+                "kyc_status",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "customer_branch_alias_id": {
+                  "type": "string"
+                },
+                "kyc_status": {
+                  "type": "null"
+                },
+                "name": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "customer_branch_alias_id",
+                "kyc_status",
+                "name"
+              ]
+            }
+          ]
+        },
+        "contact_via_whatsapp": {
+          "type": "boolean"
+        },
+        "customer_alias_id": {
+          "type": "string"
+        },
+        "customer_rep_alias_id": {
+          "type": "string"
+        },
+        "dealer_app_access_admin": {
+          "type": "boolean"
+        },
+        "department": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "is_active": {
+          "type": "boolean"
+        },
+        "job_title": {
+          "type": "string"
+        },
+        "kyc_status": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "phone_number": {
+          "type": "string"
+        },
+        "site_info": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "customer_site_alias_id": {
+                  "type": "string"
+                },
+                "kyc_status": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_site_alias_id",
+                "kyc_status",
+                "name"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "branch_info",
+        "contact_via_whatsapp",
+        "customer_alias_id",
+        "customer_rep_alias_id",
+        "dealer_app_access_admin",
+        "department",
+        "email",
+        "first_name",
+        "is_active",
+        "job_title",
+        "kyc_status",
+        "last_name",
+        "phone_number",
+        "site_info"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

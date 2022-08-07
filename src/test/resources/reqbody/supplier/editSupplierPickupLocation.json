@@ -1,0 +1,83 @@
+{   
+	"supplier_alias_id": "$suppId",
+    "supplier_office_alias_id": "$suppOffId",
+	"basic_details" : {
+	    "name": "$name",
+		"email": "$email",
+		"landline": $landline,
+		"phone_number": "$pNo"	
+	},
+	"type": "$type",
+    "address": {
+        "name": "$name1",
+        "address_line_1": "add1",
+        "address_line_2": "add2",
+        "latitude": $latitude,
+        "longitude": $longitude,
+        "city": "$city",
+        "district": "$district",
+        "state": "$state",
+        "country": "$country",
+        "pincode": "$pincode"
+    },
+	"product_groups": [
+		{
+			"product_brand_alias_id": "$productId",
+			"measurement_unit_alias_id": "$measurement",
+			"product_group_alias_id": "$productGroup",
+			"max_capacity": $maxCap,
+			"allotted_capacity": $minCap,
+			"info": {
+				"data": {
+					"value": "$value"
+				}
+			}
+		},
+		{
+			"product_brand_alias_id": "$productId1",
+			"measurement_unit_alias_id": "$measure",
+			"product_group_alias_id": "$prodGrp",
+			"max_capacity": $maximumCap,
+			"allotted_capacity": $allocCap,
+			"info": {
+				"data": {
+					"value": "valuee1"
+				}
+			}
+		}
+	],
+	"info": {
+		"timings": [
+			{
+				"day_of_week": "$dow",
+				"closed": $closed,
+				"timings": [
+					{
+							"openTime": $openTime,
+							"endTime": $endTime
+					},
+					{
+							"openTime": $openingTime,
+							"endTime": $endingTime
+					},
+					{
+							"openTime": $openedTime,
+							"endTime": $closedTime
+					},
+					{
+							"openTime": $startTime,
+							"endTime": $enddTime
+					}
+				]    
+			}
+        ]
+    },    
+    "kycs_data":[
+         {
+            "kyc_id":$kycId,
+            "kyc_identification_number":"$kycIdNum",
+            "kyc_status":"$kycStatus",
+            "kyc_type":"$kycType"
+        }
+   ]
+}

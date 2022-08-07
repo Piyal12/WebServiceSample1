@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "business_type": {
+              "type": "null"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "industry_type": {
+              "type": "string"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "kyc_status": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "owned_by": {
+              "type": "string"
+            },
+            "phone_number": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "source_data": {
+              "type": "null"
+            },
+            "state": {
+              "type": "string"
+            },
+            "supplier_alias_id": {
+              "type": "string"
+            },
+            "supplier_type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "business_type",
+            "company_type",
+            "email",
+            "industry_type",
+            "is_active",
+            "kyc_status",
+            "name",
+            "owned_by",
+            "phone_number",
+            "source",
+            "source_data",
+            "state",
+            "supplier_alias_id",
+            "supplier_type"
+          ]
+        }
+      ]
+    },
+    "page_info": {
+      "type": "object",
+      "properties": {
+        "cursor": {
+          "type": "integer"
+        },
+        "has_next": {
+          "type": "boolean"
+        },
+        "page_number": {
+          "type": "integer"
+        },
+        "page_size": {
+          "type": "integer"
+        },
+        "total_pages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cursor",
+        "has_next",
+        "page_number",
+        "page_size",
+        "total_pages"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "page_info",
+    "success"
+  ]
+}

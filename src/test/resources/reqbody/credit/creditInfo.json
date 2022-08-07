@@ -1,0 +1,9 @@
+{
+  "total_credit_limit": $totalCreditLimit,
+  "available_credit_limit": $availableCreditLimit,
+  "credit_days": "$creditDays",
+  "additional_info":
+  {
+
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "product_groups": [
+    {
+      "product_brand_alias_id": "$productBrandAliasId",
+      "measurement_unit_alias_id": "$measurementUnitAliasId",
+      "product_group_alias_id": "$productGroupAliasId",
+      "max_capacity": $maxCapacity,
+      "allotted_capacity": $allotedCapacity,
+      "info": {
+        "data": {
+          "value": "$value"
+        }
+      }
+    }
+  ]
+}

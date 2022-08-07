@@ -1,0 +1,43 @@
+{
+  "name":"$supplierName",
+  "phone_number":"$supplierNumber",
+  "email":"$email",
+  "source":"$source",
+  "company_type":"$companyType",
+  "business_type":"$businessType",
+  "industry_type":"$industryType",
+  "supplier_type": "$supplierType",
+  "state":"$state",
+  "office_data" : {
+    "name": "$supplierOfficeName",
+    "phone_number": "$supplierPhoneNo",
+    "address":{
+      "name":"$name",
+      "address_line_1":"$addressLine1",
+      "address_line_2":"$addressLine2",
+      "landmark":"$landmark",
+      "city":"$city",
+      "state":"$state",
+      "pincode":"$pincode",
+      "country":"$country",
+      "latitude":"$latitude",
+      "longitude":"$longitude"
+    },
+    "kycs_data" : [
+      {
+        "kyc_id": $kycIdGST,
+        "kyc_type": "$kycTypeGST",
+        "kyc_status": "$kycStatusGST",
+        "kyc_identification_number": "$KycNumberGST"
+      }
+    ]
+  },
+  "kycs_data" : [
+    {
+      "kyc_id": $kycIdPan,
+      "kyc_type": "$kycTypePan",
+      "kyc_status": "$kycStatusPan",
+      "kyc_identification_number": "$KycNumberPAN"
+    }
+  ]
+}

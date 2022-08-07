@@ -1,0 +1,561 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "null"
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "null"
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "null"
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "available_credit_limit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "location_count": {
+              "type": "integer"
+            },
+            "pending_application_count": {
+              "type": "integer"
+            },
+            "pending_order_count": {
+              "type": "integer"
+            },
+            "product_groups": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "state": {
+              "type": "string"
+            },
+            "total_credit_limit": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "available_credit_limit",
+            "company_type",
+            "customer_alias_id",
+            "customer_name",
+            "location_count",
+            "pending_application_count",
+            "pending_order_count",
+            "product_groups",
+            "state",
+            "total_credit_limit"
+          ]
+        }
+      ]
+    },
+    "page_info": {
+      "type": "object",
+      "properties": {
+        "cursor": {
+          "type": "integer"
+        },
+        "has_next": {
+          "type": "boolean"
+        },
+        "page_number": {
+          "type": "integer"
+        },
+        "page_size": {
+          "type": "integer"
+        },
+        "total_pages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cursor",
+        "has_next",
+        "page_number",
+        "page_size",
+        "total_pages"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "page_info",
+    "success"
+  ]
+}

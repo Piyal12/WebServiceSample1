@@ -1,0 +1,41 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "outstanding_invoice_amount": {
+          "type": "integer"
+        },
+        "outstanding_invoice_count": {
+          "type": "integer"
+        },
+        "overdue_days": {
+          "type": "integer"
+        },
+        "overdue_invoice_amount": {
+          "type": "integer"
+        },
+        "overdue_invoice_count": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "outstanding_invoice_amount",
+        "outstanding_invoice_count",
+        "overdue_days",
+        "overdue_invoice_amount",
+        "overdue_invoice_count"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

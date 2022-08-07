@@ -1,0 +1,30 @@
+{
+  "customer_rep_alias_id" :"$repId",
+  "product_details":[{
+    "product_alias_id" :"$productAliasId",
+    "product_name":"$productName",
+    "product_category_alias_id":"$categoryProductId",
+    "product_category_name" :"$productCategory",
+    "product_brand_alias_id": "$productBrandId",
+    "product_brand_name":"$productBrandName",
+    "sku" : "$skuId",
+    "variant_alias_id" : "$variantId",
+    "measurement_unit_id" :$measurementId,
+    "measurement_unit_name" :"$measurementUnitName",
+    "quantity":$quantity,
+    "base_rate":$baseRate,
+    "sale_rate":$saleRate,
+    "cgst":$cgst,
+    "sgst":$sgst,
+    "igst":$igst,
+    "image_url" :"$imageurl",
+    "info":{
+      "attribute":{
+        "weight":$weight,
+        "Grade" : "$grade"
+      }
+    }
+  }]
+
+
+}

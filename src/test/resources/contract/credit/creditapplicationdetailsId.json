@@ -1,0 +1,405 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "additional_info": {
+          "type": "object",
+          "properties": {
+            "credit_info": {
+              "type": "integer"
+            },
+            "remarks": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "credit_info",
+            "remarks"
+          ]
+        },
+        "approved_credit": {
+          "type": "integer"
+        },
+        "approved_credit_days": {
+          "type": "string"
+        },
+        "audit_info": {
+          "type": "object",
+          "properties": {
+            "approved_by": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "approved_on": {
+              "type": "integer"
+            },
+            "rejected_by": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "rejected_on": {
+              "type": "null"
+            },
+            "submitted_by": {
+              "type": "object",
+              "properties": {
+                "owner_alias_id": {
+                  "type": "string"
+                },
+                "owner_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner_alias_id",
+                "owner_name"
+              ]
+            },
+            "submitted_on": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "approved_by",
+            "approved_on",
+            "rejected_by",
+            "rejected_on",
+            "submitted_by",
+            "submitted_on"
+          ]
+        },
+        "credit_application_alias_id": {
+          "type": "string"
+        },
+        "credit_days": {
+          "type": "string"
+        },
+        "credit_group_name": {
+          "type": "string"
+        },
+        "customer": {
+          "type": "object",
+          "properties": {
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "customer_alias_id",
+            "customer_name"
+          ]
+        },
+        "customer_rep": {
+          "type": "object",
+          "properties": {
+            "customer_rep_alias_id": {
+              "type": "string"
+            },
+            "customer_rep_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "customer_rep_alias_id",
+            "customer_rep_name"
+          ]
+        },
+        "customer_site": {
+          "type": "object",
+          "properties": {
+            "customer_site_alias_id": {
+              "type": "string"
+            },
+            "customer_site_name": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "customer_site_alias_id",
+            "customer_site_name"
+          ]
+        },
+        "estimation_list": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "expected_monthly_consumption": {
+                  "type": "number"
+                },
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                },
+                "unit_of_measurement": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "expected_monthly_consumption",
+                "product_group_alias_id",
+                "product_group_name",
+                "unit_of_measurement"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "expected_monthly_consumption": {
+                  "type": "integer"
+                },
+                "product_group_alias_id": {
+                  "type": "string"
+                },
+                "product_group_name": {
+                  "type": "string"
+                },
+                "unit_of_measurement": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "expected_monthly_consumption",
+                "product_group_alias_id",
+                "product_group_name",
+                "unit_of_measurement"
+              ]
+            }
+          ]
+        },
+        "gst_data": {
+          "type": "object",
+          "properties": {
+            "gst_number": {
+              "type": "string"
+            },
+            "kyc_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "gst_number",
+            "kyc_id"
+          ]
+        },
+        "kyc_data": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "additional_info": {
+                  "type": "string"
+                },
+                "created_at_ts": {
+                  "type": "integer"
+                },
+                "created_by": {
+                  "type": "integer"
+                },
+                "doc_version": {
+                  "type": "integer"
+                },
+                "expired_at_ts": {
+                  "type": "integer"
+                },
+                "file_url": {
+                  "type": "string"
+                },
+                "identification_no": {
+                  "type": "string"
+                },
+                "kyc_id": {
+                  "type": "integer"
+                },
+                "kyc_type": {
+                  "type": "string"
+                },
+                "profile_type": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "additional_info",
+                "created_at_ts",
+                "created_by",
+                "doc_version",
+                "expired_at_ts",
+                "file_url",
+                "identification_no",
+                "kyc_id",
+                "kyc_type",
+                "profile_type",
+                "status"
+              ]
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "owner": {
+          "type": "object",
+          "properties": {
+            "owner_alias_id": {
+              "type": "string"
+            },
+            "owner_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "owner_alias_id",
+            "owner_name"
+          ]
+        },
+        "product_group": {
+          "type": "object",
+          "properties": {
+            "product_group_alias_id": {
+              "type": "string"
+            },
+            "product_group_name": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "product_group_alias_id",
+            "product_group_name"
+          ]
+        },
+        "proposed_credit": {
+          "type": "integer"
+        },
+        "reason_for_proposal": {
+          "type": "string"
+        },
+        "security_type": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "state_history": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            }
+          ]
+        },
+        "version": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "additional_info",
+        "approved_credit",
+        "approved_credit_days",
+        "audit_info",
+        "credit_application_alias_id",
+        "credit_days",
+        "credit_group_name",
+        "customer",
+        "customer_rep",
+        "customer_site",
+        "estimation_list",
+        "gst_data",
+        "kyc_data",
+        "name",
+        "owner",
+        "product_group",
+        "proposed_credit",
+        "reason_for_proposal",
+        "security_type",
+        "state",
+        "state_history",
+        "version"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

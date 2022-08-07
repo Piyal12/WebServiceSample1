@@ -1,0 +1,33 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "approved_credit_count": {
+          "type": "integer"
+        },
+        "in_progress_credit_count": {
+          "type": "integer"
+        },
+        "rejected_credit_count": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "approved_credit_count",
+        "in_progress_credit_count",
+        "rejected_credit_count"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

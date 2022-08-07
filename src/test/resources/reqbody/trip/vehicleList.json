@@ -1,0 +1,6 @@
+{
+  "page_size": $pageSize,
+  "page_number": $pageNumber,
+  "type": "$type",
+  "tag":""
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "company_type": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "industry_type": {
+          "type": "string"
+        },
+        "is_active": {
+          "type": "boolean"
+        },
+        "kyc_status": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "owned_by": {
+          "type": "string"
+        },
+        "phone_number": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "supplier_alias_id": {
+          "type": "string"
+        },
+        "supplier_type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "company_type",
+        "email",
+        "industry_type",
+        "is_active",
+        "kyc_status",
+        "name",
+        "owned_by",
+        "phone_number",
+        "source",
+        "state",
+        "supplier_alias_id",
+        "supplier_type"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

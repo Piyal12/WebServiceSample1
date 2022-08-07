@@ -1,0 +1,17 @@
+/target/
+/test-output/
+/.settings/
+/WebServiceSample/WebServiceSample.iml
+/WebServiceSample/src/test/resources/testdata/supplier/.DS_Store
+/WebServiceSample/src/test/resources/testdata/.DS_Store
+/WebServiceSample/src/.DS_Store
+*.DS_Store
+*.idea/
+*.idea
+*.iml
+.idea/
+.DS_Store
+/.idea/
+/.DS_Store
+.idea
+.DS_Store/

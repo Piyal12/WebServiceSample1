@@ -1,0 +1,12 @@
+{
+  "name": "$name",
+  "phone_number": "$phoneNumber",
+  "business_type": "$businessType",
+  "industry_type": "$industryType",
+  "email": "$email",
+  "landline": "$landline",
+  "source": "$source",
+  "company_type": "$companyType",
+  "customer_type": "$customerType",
+  "relationship_type": "$relationshipType"
+}

@@ -1,0 +1,11 @@
+{
+  "services": [
+    {
+      "product_service_alias_id":"$productServiceAliasId",
+      "info": {
+        "value": "$value"
+      }
+    }
+
+  ]
+}

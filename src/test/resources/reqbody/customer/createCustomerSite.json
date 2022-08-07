@@ -1,0 +1,22 @@
+{
+  "name": "$name",
+  "phone_number": "$phoneNumber",
+  "email": "$email",
+  "landline": "$landline",
+  "customer_alias_id": "$customerAliasId",
+  "customer_branch_alias_id": "$customerBranchAliasId",
+  "relationship_type": "$relationshipType",
+  "address": {
+    "name": "$addName",
+    "address_line_1": "$addressLine1",
+    "address_line_2": "$addressLine2",
+    "landmark": "$landmark",
+    "pincode": "$pincode",
+    "city": "$city",
+    "district": "$district",
+    "state": "$state",
+    "country": "$country",
+    "latitude": $latitude,
+    "longitude": $longitude
+  }
+}

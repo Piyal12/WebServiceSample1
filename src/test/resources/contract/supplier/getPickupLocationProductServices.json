@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "info": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "value"
+              ]
+            },
+            "product_service_alias_id": {
+              "type": "string"
+            },
+            "service_name": {
+              "type": "string"
+            },
+            "service_type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "info",
+            "product_service_alias_id",
+            "service_name",
+            "service_type"
+          ]
+        }
+      ]
+    },
+    "page_info": {
+      "type": "object",
+      "properties": {
+        "cursor": {
+          "type": "integer"
+        },
+        "has_next": {
+          "type": "boolean"
+        },
+        "page_number": {
+          "type": "integer"
+        },
+        "page_size": {
+          "type": "integer"
+        },
+        "total_pages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cursor",
+        "has_next",
+        "page_number",
+        "page_size",
+        "total_pages"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "page_info",
+    "success"
+  ]
+}

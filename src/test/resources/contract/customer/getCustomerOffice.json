@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "additional_info": {
+          "type": "null"
+        },
+        "address": {
+          "type": "object",
+          "properties": {
+            "address_alias_id": {
+              "type": "string"
+            },
+            "address_line_1": {
+              "type": "string"
+            },
+            "address_line_2": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "district": {
+              "type": "null"
+            },
+            "landmark": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "integer"
+            },
+            "longitude": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "pincode": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            },
+            "street": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "address_alias_id",
+            "address_line_1",
+            "address_line_2",
+            "city",
+            "country",
+            "district",
+            "landmark",
+            "latitude",
+            "longitude",
+            "name",
+            "pincode",
+            "state",
+            "street"
+          ]
+        },
+        "customer_alias_id": {
+          "type": "string"
+        },
+        "customer_branch_alias_id": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "kyc_status": {
+          "type": "string"
+        },
+        "landline": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "phone_number": {
+          "type": "string"
+        },
+        "pincode_id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "additional_info",
+        "address",
+        "customer_alias_id",
+        "customer_branch_alias_id",
+        "email",
+        "kyc_status",
+        "landline",
+        "name",
+        "phone_number",
+        "pincode_id"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

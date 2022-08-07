@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "kyc_id": {
+              "type": "integer"
+            },
+            "kyc_type": {
+              "type": "string"
+            },
+            "identification_no": {
+              "type": "string"
+            },
+            "file_url": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "profile_type": {
+              "type": "string"
+            },
+            "expired_at_ts": {
+              "type": "integer"
+            },
+            "doc_version": {
+              "type": "integer"
+            },
+            "additional_info": {
+              "type": "object"
+            },
+            "created_by": {
+              "type": "integer"
+            },
+            "created_at_ts": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "kyc_id",
+            "kyc_type",
+            "identification_no",
+            "file_url",
+            "status",
+            "profile_type",
+            "expired_at_ts",
+            "doc_version",
+            "additional_info",
+            "created_by",
+            "created_at_ts"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "success",
+    "data"
+  ]
+}

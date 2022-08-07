@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="positive"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="com.im.service.util.listener.TestListener"></listener>
+        <listener class-name="com.im.service.util.listener.HtmlReportListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="Test">
+        <classes>
+            <class name="primary.customerService.CreateCustomer"/>
+            <class name="primary.customerService.CreateCustomerOffice"/>
+            <class name="primary.customerService.CreateCustomerRepresentative"/>
+            <class name="primary.customerService.CreateCustomerSite"/>
+            <class name="primary.customerService.DeleteCustomerSitePic"/>
+            <class name="primary.customerService.EditCustomer"/>
+            <class name="primary.customerService.EditCustomerRep"/>
+            <class name="primary.customerService.FetchCustomerList"/>
+            <class name="primary.customerService.GetCustomerDetails"/>
+            <class name="primary.customerService.GetCustomerOffice"/>
+            <class name="primary.customerService.GetCustomerOfficeList"/>
+            <class name="primary.customerService.GetCustomerRepDetailsById"/>
+            <class name="primary.customerService.GetCustomerRepList"/>
+            <class name="primary.customerService.GetCustomerSiteDetailsById"/>
+            <class name="primary.customerService.GetCustomerSiteList"/>
+            <class name="primary.customerService.GetGSTListByCustomerID"/>
+            <class name="primary.customerService.UpdateCustomerOffice"/>
+            <class name="primary.customerService.UpdateCustomerSiteById"/>
+
+            <class name="secondary.customerService.CreateCustomerNegative"/>
+            <class name="secondary.customerService.CreateCustomerOfficeNegative"/>
+            <class name="secondary.customerService.CreateCustomerRepresentativeNegative"/>
+            <class name="secondary.customerService.CreateCustomerSiteNegative"/>
+            <class name="secondary.customerService.EditCustomerNegative"/>
+            <class name="secondary.customerService.EditCustomerRepNegative"/>
+            <class name="secondary.customerService.GetCustomerDetailsNegative"/>
+            <class name="secondary.customerService.GetCustomerListNegative"/>
+            <class name="secondary.customerService.GetCustomerOfficeListNegative"/>
+            <class name="secondary.customerService.GetCustomerOfficeNegative"/>
+            <class name="secondary.customerService.GetCustomerRepDetailsByIdNegative"/>
+            <class name="secondary.customerService.GetCustomerRepListNegative"/>
+            <class name="secondary.customerService.GetCustomerSiteDetailsByIdNegative"/>
+            <class name="secondary.customerService.GetCustomerSiteListNegative"/>
+            <class name="secondary.customerService.GetGSTListByCustomerIDNegative"/>
+            <class name="secondary.customerService.UpdateCustomerOfficeNegative"/>
+            <class name="secondary.customerService.UpdateCustomerSiteByIdNegative"/>
+        </classes>
+    </test>
+</suite>

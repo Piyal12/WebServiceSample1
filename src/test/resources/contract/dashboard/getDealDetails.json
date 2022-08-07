@@ -1,0 +1,383 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "closure_date": {
+          "type": "string"
+        },
+        "cov_probability": {
+          "type": "integer"
+        },
+        "customer": {
+          "type": "object",
+          "properties": {
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "customer_alias_id",
+            "customer_name"
+          ]
+        },
+        "customer_sites": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "customer_branch": {
+                  "type": "object",
+                  "properties": {
+                    "customer_branch_alias_id": {
+                      "type": "string"
+                    },
+                    "customer_branch_name": {
+                      "type": "string"
+                    },
+                    "kyc_status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "customer_branch_alias_id",
+                    "customer_branch_name",
+                    "kyc_status"
+                  ]
+                },
+                "customer_rep": {
+                  "type": "object",
+                  "properties": {
+                    "customer_rep_alias_id": {
+                      "type": "string"
+                    },
+                    "customer_rep_name": {
+                      "type": "string"
+                    },
+                    "kyc_status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "customer_rep_alias_id",
+                    "customer_rep_name",
+                    "kyc_status"
+                  ]
+                },
+                "customer_site_alias_id": {
+                  "type": "string"
+                },
+                "customer_site_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "customer_branch",
+                "customer_rep",
+                "customer_site_alias_id",
+                "customer_site_name"
+              ]
+            }
+          ]
+        },
+        "deal_alias_id": {
+          "type": "string"
+        },
+        "deal_amount": {
+          "type": "string"
+        },
+        "deal_name": {
+          "type": "string"
+        },
+        "info": {
+          "type": "object"
+        },
+        "is_active": {
+          "type": "boolean"
+        },
+        "owner": {
+          "type": "object",
+          "properties": {
+            "owner_alias_id": {
+              "type": "string"
+            },
+            "owner_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "owner_alias_id",
+            "owner_name"
+          ]
+        },
+        "payment_type": {
+          "type": "string"
+        },
+        "product_category": {
+          "type": "object",
+          "properties": {
+            "product_category_alias_id": {
+              "type": "string"
+            },
+            "product_category_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product_category_alias_id",
+            "product_category_name"
+          ]
+        },
+        "product_group": {
+          "type": "object",
+          "properties": {
+            "product_group_alias_id": {
+              "type": "string"
+            },
+            "product_group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product_group_alias_id",
+            "product_group_name"
+          ]
+        },
+        "products": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "info": {
+                  "type": "null"
+                },
+                "is_custom": {
+                  "type": "boolean"
+                },
+                "measurement_unit": {
+                  "type": "object",
+                  "properties": {
+                    "measurement_unit_alias_id": {
+                      "type": "string"
+                    },
+                    "measurement_unit_name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "measurement_unit_alias_id",
+                    "measurement_unit_name"
+                  ]
+                },
+                "product_alias_id": {
+                  "type": "string"
+                },
+                "product_brand": {
+                  "type": "object",
+                  "properties": {
+                    "product_brand_alias_id": {
+                      "type": "string"
+                    },
+                    "product_brand_name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "product_brand_alias_id",
+                    "product_brand_name"
+                  ]
+                },
+                "product_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "info",
+                "is_custom",
+                "measurement_unit",
+                "product_alias_id",
+                "product_brand",
+                "product_name"
+              ]
+            }
+          ]
+        },
+        "state": {
+          "type": "string"
+        },
+        "state_history": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "visited": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "visited"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "closure_date",
+        "cov_probability",
+        "customer",
+        "customer_sites",
+        "deal_alias_id",
+        "deal_amount",
+        "deal_name",
+        "info",
+        "is_active",
+        "owner",
+        "payment_type",
+        "product_category",
+        "product_group",
+        "products",
+        "state",
+        "state_history"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

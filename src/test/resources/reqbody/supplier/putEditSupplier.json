@@ -1,0 +1,19 @@
+{
+  "name":"$supplierName",
+  "phone_number":"$supplierNumber",
+  "email":"$email",
+  "source":"$source",
+  "company_type":"$companyType",
+  "business_type":"$businessType",
+  "industry_type":"$industryType",
+  "supplier_type": "$supplierType",
+  "state":"$state",
+    "kycs_data" : [
+      {
+        "kyc_id": $kycIdGST,
+        "kyc_type": "$kycTypeGST",
+        "kyc_status": "$kycStatusGST",
+        "kyc_identification_number": "$KycNumberGST"
+      }
+    ]
+}

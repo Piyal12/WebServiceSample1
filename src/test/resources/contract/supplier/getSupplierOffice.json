@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "object",
+          "properties": {
+            "address_line_1": {
+              "type": "string"
+            },
+            "address_line_2": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "district": {
+              "type": "string"
+            },
+            "landmark": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "pincode": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "address_line_1",
+            "address_line_2",
+            "city",
+            "country",
+            "district",
+            "landmark",
+            "latitude",
+            "longitude",
+            "name",
+            "pincode",
+            "state"
+          ]
+        },
+        "bank_details": {
+          "type": "object",
+          "properties": {
+            "account_holder_name": {
+              "type": "null"
+            },
+            "account_number": {
+              "type": "null"
+            },
+            "bank_name": {
+              "type": "null"
+            },
+            "branch_address": {
+              "type": "null"
+            },
+            "branch_name": {
+              "type": "null"
+            },
+            "ifsc": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "account_holder_name",
+            "account_number",
+            "bank_name",
+            "branch_address",
+            "branch_name",
+            "ifsc"
+          ]
+        },
+        "basic_details": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "null"
+            },
+            "landline": {
+              "type": "null"
+            },
+            "name": {
+              "type": "string"
+            },
+            "phone_number": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email",
+            "landline",
+            "name",
+            "phone_number"
+          ]
+        },
+        "is_active": {
+          "type": "boolean"
+        },
+        "kyc_status": {
+          "type": "string"
+        },
+        "supplier_alias_id": {
+          "type": "string"
+        },
+        "supplier_office_alias_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "address",
+        "bank_details",
+        "basic_details",
+        "is_active",
+        "kyc_status",
+        "supplier_alias_id",
+        "supplier_office_alias_id"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "success"
+  ]
+}

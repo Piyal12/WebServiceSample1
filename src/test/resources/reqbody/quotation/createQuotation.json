@@ -1,0 +1,24 @@
+{
+    "name": "$name",
+    "deal_alias_id": "$dealAliasId",
+    "customer_alias_id":"$customerAliasId",
+    "payment_type": "$paymentType",
+    "security_type": "$securityType",
+    "credit_days": "$creditDays",
+    "product_group": "$productGroup",
+    "products": [
+        {
+            "product_alias_id": "$addProductAliasId",
+            "product_group_alias_id": "$addProductGroupAliasId",
+            "measurement_unit_alias_id": "$addMeasurementUnitAliasId",
+            "sale_rate": $addSaleRate,
+            "base_rate": $addBaseRate,
+            "quantity": $addQuantity,
+            "cgst": $addCgst,
+            "sgst": $addSgst,
+            "igst": $addIgst,
+            "info": {}
+        }
+    ],
+    "info": {}
+}

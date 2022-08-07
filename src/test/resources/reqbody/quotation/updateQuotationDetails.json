@@ -1,0 +1,34 @@
+
+{
+    "name": "$name",
+    "payment_terms": "$paymentTerms",
+    "products": [
+        {
+            "product_alias_id": "$prodAliasId",
+            "product_group_alias_id": "$prodGrpAliasId",
+            "measurement_unit_alias_id": "$mstUnitAliasId",
+            "sale_rate": $saleRate,
+            "base_rate": $baseRate,
+            "quantity": $quantity,
+            "cgst": $cGst,
+            "sgst": $sGst,
+            "igst": $iGst,
+            "info": {}
+        },
+        {
+            "product_alias_id": "$addProdAliasId",
+            "product_group_alias_id": "$addProdGrpAliasId",
+            "measurement_unit_alias_id": "$addMstUnitAliasId",
+            "sale_rate": $addSaleRate,
+            "base_rate": $addBaseRate,
+            "quantity": $addQuantity,
+            "cgst": $addCGst,
+            "sgst": $addSGst,
+            "igst": $addIGst,
+            "info": {}
+        }
+    ],
+    "info": {
+        "reason" : "$reason"
+    }
+}

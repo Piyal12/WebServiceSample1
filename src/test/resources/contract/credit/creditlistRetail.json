@@ -1,0 +1,166 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "approved_credit": {
+              "type": "integer"
+            },
+            "company_type": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "integer"
+            },
+            "credit_application_alias_id": {
+              "type": "string"
+            },
+            "credit_days": {
+              "type": "string"
+            },
+            "credit_state": {
+              "type": "string"
+            },
+            "customer_alias_id": {
+              "type": "string"
+            },
+            "customer_name": {
+              "type": "string"
+            },
+            "customer_rep_alias_id": {
+              "type": "string"
+            },
+            "customer_rep_name": {
+              "type": "null"
+            },
+            "customer_site_alias_id": {
+              "type": "null"
+            },
+            "customer_site_name": {
+              "type": "null"
+            },
+            "gst_number": {
+              "type": "string"
+            },
+            "kyc_id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "owner_alias_id": {
+              "type": "string"
+            },
+            "owner_name": {
+              "type": "string"
+            },
+            "product_group_alias_id": {
+              "type": "null"
+            },
+            "product_group_list": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "product_group_name": {
+              "type": "null"
+            },
+            "proposed_credit": {
+              "type": "integer"
+            },
+            "reason_for_proposal": {
+              "type": "string"
+            },
+            "security_type": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "integer"
+            },
+            "version": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "approved_credit",
+            "company_type",
+            "created_at",
+            "credit_application_alias_id",
+            "credit_days",
+            "credit_state",
+            "customer_alias_id",
+            "customer_name",
+            "customer_rep_alias_id",
+            "customer_rep_name",
+            "customer_site_alias_id",
+            "customer_site_name",
+            "gst_number",
+            "kyc_id",
+            "name",
+            "owner_alias_id",
+            "owner_name",
+            "product_group_alias_id",
+            "product_group_list",
+            "product_group_name",
+            "proposed_credit",
+            "reason_for_proposal",
+            "security_type",
+            "state",
+            "updated_at",
+            "version"
+          ]
+        }
+      ]
+    },
+    "page_info": {
+      "type": "object",
+      "properties": {
+        "cursor": {
+          "type": "integer"
+        },
+        "has_next": {
+          "type": "boolean"
+        },
+        "page_number": {
+          "type": "integer"
+        },
+        "page_size": {
+          "type": "integer"
+        },
+        "total_pages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cursor",
+        "has_next",
+        "page_number",
+        "page_size",
+        "total_pages"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "page_info",
+    "success"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "deal_state": "$dealState",
+    "owner_alias_id": "",
+    "info": {},
+    "deal_name": "$dealName",
+    "total_amount": "$totalAmount",
+    "closure_date": "$closureDate",
+    "product_category_alias_id": "$prodCatAliasId",
+    "product_group_alias_id": "$prodGrpAliasId",
+    "customer_alias_id": "$customerAliasId",
+    "customer_sites": [
+        {
+            "customer_site_alias_id": "$customerSiteAliasId",
+            "customer_rep_alias_id": "$customerRepAliasId",
+            "customer_branch_alias_id": "$customerBranchAliasId"
+        }
+    ],
+    "products": [
+        {
+            "id": $id,
+            "is_custom": $isCustom,
+            "product_alias_id": "$prodAliasId",
+            "product_name": "$prodName",
+            "product_brand_alias_id": "$prodBrandAliasId",
+            "measurement_unit_alias_id": "$mstUnitAliasId",
+            "product_brand_name": "$prodBrandName",
+            "measurement_unit_name": "$mstUnitName"
+        }
+    ],
+    "payment_type": "$paymentType"
+}

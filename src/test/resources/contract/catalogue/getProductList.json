@@ -1,0 +1,1110 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "brand_name": {
+              "type": "null"
+            },
+            "product_alias_id": {
+              "type": "string"
+            },
+            "product_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_name",
+            "product_alias_id",
+            "product_name"
+          ]
+        }
+      ]
+    },
+    "page_info": {
+      "type": "object",
+      "properties": {
+        "cursor": {
+          "type": "integer"
+        },
+        "has_next": {
+          "type": "boolean"
+        },
+        "page_number": {
+          "type": "integer"
+        },
+        "page_size": {
+          "type": "integer"
+        },
+        "total_pages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "cursor",
+        "has_next",
+        "page_number",
+        "page_size",
+        "total_pages"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "data",
+    "page_info",
+    "success"
+  ]
+}
